@@ -38,9 +38,6 @@ int main() {
     // Set period of 4 cycles (0 to 3 inclusive)
     pwm_set_wrap(slice_num, 250);
     // Set channel A output high for one cycle before dropping
- //   pwm_set_chan_level(slice_num, PWM_CHAN_A, 1);
-    // Set initial B output high for three cycles before dropping
- //   pwm_set_chan_level(slice_num, PWM_CHAN_B, 3);
     // Set the PWM running
     pwm_set_enabled(slice_num, true);
     /// \end::setup_pwm[]
