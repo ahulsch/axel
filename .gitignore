@@ -30,3 +30,10 @@ build/resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/por
 build/resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 build/resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 build/resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+build/resolver/resolver.bin
+build/resolver/resolver.dis
+build/resolver/resolver.elf
+build/resolver/resolver.elf.map
+build/resolver/resolver.hex
+build/resolver/resolver.uf2
+build/resolver/CMakeFiles/resolver.dir/resolver.c.obj

@@ -140,7 +140,7 @@ bool timer_callback(repeating_timer_t *rt)
         if ((x >= 0) && (y < 0) && (w < 0)) { q = 5; Winkel = -300 - atan(1 / w) * 120 / M_PI; } //0>>-99
         if ((x >= 0) && (y >= 0) && (w >= 1)) { q = 6; Winkel = -300 - atan(1 / w) * 240 / M_PI; } //99>>1
         Winkel *= -1;
-        printf("%f\n",Winkel);
+        printf("%3.1f\n",Winkel);
         mutex_exit(&mutex);
 
     }
