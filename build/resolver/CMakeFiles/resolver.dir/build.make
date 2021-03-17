@@ -554,256 +554,22 @@ resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
+resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj   -c /home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
-	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
 resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -816,7 +582,7 @@ resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_multi
 
 resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: resolver/CMakeFiles/resolver.dir/flags.make
 resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-gcc-7.3.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj   -c /home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -874,25 +640,7 @@ resolver_OBJECTS = \
 "CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
 "CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
 "CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
@@ -944,31 +692,13 @@ resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/sr
 resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/build.make
 resolver/resolver.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 resolver/resolver.elf: resolver/CMakeFiles/resolver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Linking CXX executable resolver.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/pico/axel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable resolver.elf"
 	cd /home/pi/pico/axel/build/resolver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/resolver.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-objcopy -Oihex resolver.elf resolver.hex
 	cd /home/pi/pico/axel/build/resolver && /usr/bin/arm-none-eabi-objcopy -Obinary resolver.elf resolver.bin

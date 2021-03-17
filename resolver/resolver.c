@@ -22,6 +22,11 @@ mutex_t mutex;
 int main() {
     mutex_init(&mutex);
     stdio_init_all();
+
+    uart_init(uart0,115200);
+    gpio_set_function(0,GPIO_FUNC_UART);
+    gpio_set_function(1,GPIO_FUNC_UART);
+
     adc_init();
 
     // Make sure GPIO is high-impedance, no pullups etc
@@ -54,12 +59,19 @@ int main() {
 
     while (1)
    {
-       sleep_ms(200);
+       char c=uart_getc(uart0);
        mutex_enter_blocking(&mutex);
-       double w=Winkel;
+       switch (c)
+       {
+       case 'D':
+           /* code */
+           printf("huhu\n");
+           break;
+       
+       default:
+           break;
+       } 
        mutex_exit(&mutex);
-       int i=round(w);
-       printf("%i\n",i);
    } 
     cancel_repeating_timer(&timer);
     printf("Done\n");
@@ -128,6 +140,7 @@ bool timer_callback(repeating_timer_t *rt)
         if ((x >= 0) && (y < 0) && (w < 0)) { q = 5; Winkel = -300 - atan(1 / w) * 120 / M_PI; } //0>>-99
         if ((x >= 0) && (y >= 0) && (w >= 1)) { q = 6; Winkel = -300 - atan(1 / w) * 240 / M_PI; } //99>>1
         Winkel *= -1;
+        printf("%f\n",Winkel);
         mutex_exit(&mutex);
 
     }

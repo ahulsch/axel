@@ -140,411 +140,6 @@ ELF2UF2Build/fast:
 	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/ELF2UF2Build.dir/build.make resolver/CMakeFiles/ELF2UF2Build.dir/build
 .PHONY : ELF2UF2Build/fast
 
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.i: home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.s: home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.obj: home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.i: home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
-
-home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.s: home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
-
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
-
 home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 .PHONY : home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.obj
@@ -1247,33 +842,6 @@ home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
 	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-
-home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-
 home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 .PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
@@ -1589,86 +1157,32 @@ home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 
 # target to build an object file
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
-
-# target to preprocess a source file
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
-
-# target to generate assembly for a file
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
-
-# target to build an object file
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
 
 # target to preprocess a source file
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
 
 # target to generate assembly for a file
-home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	cd /home/pi/pico/axel/build && $(MAKE) -f resolver/CMakeFiles/resolver.dir/build.make resolver/CMakeFiles/resolver.dir/home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
@@ -1734,51 +1248,6 @@ help:
 	@echo "... resolver"
 	@echo "... rebuild_cache"
 	@echo "... ELF2UF2Build"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.obj"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.i"
-	@echo "... home/pi/pico/pico-sdk/lib/tinyusb/src/tusb.s"
 	@echo "... home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/pi/pico/pico-sdk/src/common/pico_sync/critical_section.s"
@@ -1857,9 +1326,6 @@ help:
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
@@ -1895,15 +1361,9 @@ help:
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
-	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
+	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/pi/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"

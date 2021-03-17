@@ -7,8 +7,8 @@ if (NOT PICO_TIME_NO_ALARM_SUPPORT)
     target_link_libraries(resolver pico_stdlib pico_multicore hardware_adc hardware_pwm)
 
     # enable usb output, disable uart output
-    pico_enable_stdio_usb(resolver 1)
-    pico_enable_stdio_uart(resolver 0)
+    pico_enable_stdio_usb(resolver 0)
+    pico_enable_stdio_uart(resolver 1)
    
     # create map/bin/hex file etc.
     pico_add_extra_outputs(resolver)
