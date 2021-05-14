@@ -14,6 +14,11 @@
 #include "hardware/pwm.h"
 #include "pico/multicore.h"
 
+#define ROTATE_RIGHT 18
+#define ROTATE_LEFT 19
+#define GP20 20
+#define GP21 21
+
 bool timer_callback(repeating_timer_t *rt);
 
 uint slice_num;
@@ -26,6 +31,22 @@ int main() {
     uart_init(uart0,115200);
     gpio_set_function(0,GPIO_FUNC_UART);
     gpio_set_function(1,GPIO_FUNC_UART);
+ 
+    gpio_init(ROTATE_RIGHT);
+    gpio_put(ROTATE_RIGHT,true);
+    gpio_set_dir(ROTATE_RIGHT,GPIO_OUT);
+
+    gpio_init(ROTATE_LEFT);
+    gpio_put(ROTATE_LEFT,true);
+    gpio_set_dir(ROTATE_LEFT,GPIO_OUT);
+
+    gpio_init(GP20);
+    gpio_put(GP20,true);
+    gpio_set_dir(GP20,GPIO_OUT);
+
+    gpio_init(GP21);
+    gpio_put(GP21,true);
+    gpio_set_dir(GP21,GPIO_OUT);
 
     adc_init();
 
@@ -61,11 +82,29 @@ int main() {
    {
        char c=uart_getc(uart0);
        mutex_enter_blocking(&mutex);
+       double pos;
        switch (c)
        {
-       case 'D':
-           /* code */
-           printf("huhu\n");
+       case 'L':
+           gpio_put(ROTATE_RIGHT,true);
+           gpio_put(ROTATE_LEFT,false);
+           break;
+       
+       case 'R':
+           gpio_put(ROTATE_LEFT,true);
+           gpio_put(ROTATE_RIGHT,false);
+           break;
+       
+       case 'S':
+           gpio_put(ROTATE_LEFT,true);
+           gpio_put(ROTATE_RIGHT,true);
+           break;
+       
+       case 'P':
+           gpio_put(ROTATE_LEFT,true);
+           gpio_put(ROTATE_RIGHT,true);
+           pos=((int)(uart_getc(uart0)-0x30)*100)+((int)(uart_getc(uart0)-0x30)*10)+((int)uart_getc(uart0)-0x30);
+           printf("pos=%3.1f\n",pos);
            break;
        
        default:
